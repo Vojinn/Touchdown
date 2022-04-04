@@ -16,6 +16,9 @@
 		24B1B07227FA63EC0021F680 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 24B1B06E27FA63EC0021F680 /* player.json */; };
 		24B1B07327FA63EC0021F680 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 24B1B06F27FA63EC0021F680 /* product.json */; };
 		24B1B07E27FA64E90021F680 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1B07D27FA64E90021F680 /* Constant.swift */; };
+		24B1B08027FA669C0021F680 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1B07F27FA669C0021F680 /* FooterView.swift */; };
+		24B1B08227FAF8FC0021F680 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1B08127FAF8FC0021F680 /* NavigationBarView.swift */; };
+		24B1B08427FAFB430021F680 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1B08327FAFB430021F680 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		24B1B06F27FA63EC0021F680 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
 		24B1B07527FA643E0021F680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		24B1B07D27FA64E90021F680 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		24B1B07F27FA669C0021F680 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		24B1B08127FAF8FC0021F680 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		24B1B08327FAFB430021F680 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 		24B1B07827FA64B30021F680 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				24B1B07F27FA669C0021F680 /* FooterView.swift */,
+				24B1B08127FAF8FC0021F680 /* NavigationBarView.swift */,
+				24B1B08327FAFB430021F680 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -223,8 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B1B06127FA63260021F680 /* ContentView.swift in Sources */,
+				24B1B08427FAFB430021F680 /* LogoView.swift in Sources */,
+				24B1B08027FA669C0021F680 /* FooterView.swift in Sources */,
 				24B1B05F27FA63260021F680 /* TouchdownApp.swift in Sources */,
 				24B1B07E27FA64E90021F680 /* Constant.swift in Sources */,
+				24B1B08227FAF8FC0021F680 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
